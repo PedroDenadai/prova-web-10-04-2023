@@ -1,0 +1,107 @@
+body{
+    background-color: papayawhip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+#footer{
+    color: white;
+    font-size: 20px;
+}
+
+
+#section-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    margin: 30px;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#batman{
+    height: 100%;
+    margin: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+#info{
+    border-radius: 5%;
+    background-color: darkkhaki;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+#texto{
+    text-align: center;
+    margin: 10px;
+    width: 50%;
+}
+
+#fotos {
+    margin: 10px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    flex-wrap: wrap;
+    gap: 0px; /* define o espaço entre os quadros*/
+  }
+  
+.quadro {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(50% - 40px); /* define a largura de cada coluna */
+  }
+
+
+.imagem{
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    width: 150px;
+    height: 120px;
+}
+
+.rodape{
+    text-align: center;
+    color: white;
+    width: 150px;
+    background-color: brown;
+    border-bottom-left-radius:5% ;
+    border-bottom-right-radius:5% ;
+}
+
+#footer-final{
+    background-color: brown !important;
+    height: 50px;
+    width: 100%;
+    margin-top: 15px;
+}
